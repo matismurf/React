@@ -1,0 +1,28 @@
+-ReactJS é uma biblioteca JavaScript para criação de UI(user interface) criada pelo
+facebook, sua proposta é facilitar a conexão de diferentes partes de uma página
+e trabalha utilizando componentes
+-para criar um projeto react = use o terminal e entre na pasta desejada utilizando
+comando "cd" e ao entrar na pasta utilizar "npx create-react-app"
+-aplicações react possuem um servidor de desenvolvimento embutido, para utilizalo
+entre na pasta da aplicação no terminal através do "cd" e use "npm start"
+-dentro da pasta "src" da aplicação precisamos ter um arquivo "index.js", caso
+contrário a aplicação dará um erro
+-aplicações react tem apenas um arquivo HTML, que está dentro da pasta public
+-para renderizar algo na tela usando react utilize o método "render" do "ReactDOM"
+e passe como parâmetro oque vc quer exibir na tela e onde quer exibir ex="
+ReactDOM.render('ola', document.getElementById('root'))", root é a principal div do
+react, e esta dentro do único arquivo html que temos na aplicação
+-importante lembrar de importar o ReactDOM dentro do index.js = "import ReactDOM
+from 'react-dom'"
+-para utilizar html dentro de um código JS, precisamos importar o React
+-não mexeremos no html da aplicação, basicamente alteraremos apenas os arquivos js
+e introduziremos no html através do index.js
+-é interessante utilizar a extensão ".jsx" nos arquivos da aplicação pois assim a
+IDE te auxilia por identificar que esse arquivo vai ser utilizado em uma aplicação
+react
+-para utilizar um 'trecho javascript' dentro de um 'trecho html' no jsx, envolva
+o trecho js em "{}"
+-componentes React precisam sempre estar envolvidos por uma div ou por um
+React.Fragment
+
+-parei em 24
