@@ -1,6 +1,6 @@
 import { Header } from './components/Header';
 import {Post} from './components/Post';
-import {Sidebar} from './components/Sidebar'
+import {Sidebar} from './components/Sidebar';
 
 import './global.css'
 import styles from './App.module.css'
@@ -18,11 +18,6 @@ export function App() {
           <Post 
             author="Matias Vinícius"
             content="Tatakae"
-          />
-
-          <Post 
-            author="Albert Einstein"
-            content="React é muito legal"
           />
 
         </main>
